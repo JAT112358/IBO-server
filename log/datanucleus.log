@@ -1,0 +1,76 @@
+﻿17:55:51,103 (main) ERROR [DataNucleus.SchemaTool] - Error creating NucleusContext
+Clase "entities.Play" campo "song" : es definido como entities.Song con "persistence-modifier=NONE" pero tiene "default-fetch-group=true" o "primary-key=true" definido! Deben ser falsos.
+org.datanucleus.metadata.InvalidMemberMetaDataException: Clase "entities.Play" campo "song" : es definido como entities.Song con "persistence-modifier=NONE" pero tiene "default-fetch-group=true" o "primary-key=true" definido! Deben ser falsos.
+	at org.datanucleus.metadata.AbstractMemberMetaData.populate(AbstractMemberMetaData.java:609)
+	at org.datanucleus.metadata.ClassMetaData.populateMemberMetaData(ClassMetaData.java:543)
+	at org.datanucleus.metadata.ClassMetaData.populate(ClassMetaData.java:210)
+	at org.datanucleus.metadata.MetaDataManager$1.run(MetaDataManager.java:2806)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.datanucleus.metadata.MetaDataManager.populateAbstractClassMetaData(MetaDataManager.java:2800)
+	at org.datanucleus.metadata.MetaDataManager.populateFileMetaData(MetaDataManager.java:2623)
+	at org.datanucleus.metadata.MetaDataManager.initialiseFileMetaDataForUse(MetaDataManager.java:1183)
+	at org.datanucleus.metadata.MetaDataManager.loadPersistenceUnit(MetaDataManager.java:1046)
+	at org.datanucleus.store.schema.SchemaTool.getNucleusContextForMode(SchemaTool.java:660)
+	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:271)
+17:57:26,329 (main) ERROR [DataNucleus.SchemaTool] - Error creating NucleusContext
+Clase "entities.Play" campo "song" : es definido como entities.Song con "persistence-modifier=NONE" pero tiene "default-fetch-group=true" o "primary-key=true" definido! Deben ser falsos.
+org.datanucleus.metadata.InvalidMemberMetaDataException: Clase "entities.Play" campo "song" : es definido como entities.Song con "persistence-modifier=NONE" pero tiene "default-fetch-group=true" o "primary-key=true" definido! Deben ser falsos.
+	at org.datanucleus.metadata.AbstractMemberMetaData.populate(AbstractMemberMetaData.java:609)
+	at org.datanucleus.metadata.ClassMetaData.populateMemberMetaData(ClassMetaData.java:543)
+	at org.datanucleus.metadata.ClassMetaData.populate(ClassMetaData.java:210)
+	at org.datanucleus.metadata.MetaDataManager$1.run(MetaDataManager.java:2806)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.datanucleus.metadata.MetaDataManager.populateAbstractClassMetaData(MetaDataManager.java:2800)
+	at org.datanucleus.metadata.MetaDataManager.populateFileMetaData(MetaDataManager.java:2623)
+	at org.datanucleus.metadata.MetaDataManager.initialiseFileMetaDataForUse(MetaDataManager.java:1183)
+	at org.datanucleus.metadata.MetaDataManager.loadPersistenceUnit(MetaDataManager.java:1046)
+	at org.datanucleus.store.schema.SchemaTool.getNucleusContextForMode(SchemaTool.java:660)
+	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:271)
+05:22:58,903 (main) ERROR [DataNucleus.SchemaTool] - Error creating NucleusContext
+SchemaTool has been specified to use persistence-unit with name Entities but none was found with that name
+org.datanucleus.exceptions.NucleusUserException: SchemaTool has been specified to use persistence-unit with name Entities but none was found with that name
+	at org.datanucleus.store.schema.SchemaTool.getNucleusContextForMode(SchemaTool.java:536)
+	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:271)
+19:38:56,766 (RMI TCP Connection(6)-127.0.0.1) ERROR [DataNucleus.Persistence] - org.datanucleus.exceptions.NucleusDataStoreException: Ha tirado una excepci???n al hacer flush() a la base de datos
+21:03:02,751 (main) ERROR [DataNucleus.SchemaTool] - Error creating NucleusContext
+Clase "entities.Play" campo "song" : es definido como entities.Song con "persistence-modifier=NONE" pero tiene "default-fetch-group=true" o "primary-key=true" definido! Deben ser falsos.
+org.datanucleus.metadata.InvalidMemberMetaDataException: Clase "entities.Play" campo "song" : es definido como entities.Song con "persistence-modifier=NONE" pero tiene "default-fetch-group=true" o "primary-key=true" definido! Deben ser falsos.
+	at org.datanucleus.metadata.AbstractMemberMetaData.populate(AbstractMemberMetaData.java:609)
+	at org.datanucleus.metadata.ClassMetaData.populateMemberMetaData(ClassMetaData.java:543)
+	at org.datanucleus.metadata.ClassMetaData.populate(ClassMetaData.java:210)
+	at org.datanucleus.metadata.MetaDataManager$1.run(MetaDataManager.java:2806)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.datanucleus.metadata.MetaDataManager.populateAbstractClassMetaData(MetaDataManager.java:2800)
+	at org.datanucleus.metadata.MetaDataManager.populateFileMetaData(MetaDataManager.java:2623)
+	at org.datanucleus.metadata.MetaDataManager.initialiseFileMetaDataForUse(MetaDataManager.java:1183)
+	at org.datanucleus.metadata.MetaDataManager.loadPersistenceUnit(MetaDataManager.java:1046)
+	at org.datanucleus.store.schema.SchemaTool.getNucleusContextForMode(SchemaTool.java:660)
+	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:271)
+21:03:32,594 (main) ERROR [DataNucleus.SchemaTool] - Error creating NucleusContext
+Clase "entities.Play" campo "song" : es definido como entities.Song con "persistence-modifier=NONE" pero tiene "default-fetch-group=true" o "primary-key=true" definido! Deben ser falsos.
+org.datanucleus.metadata.InvalidMemberMetaDataException: Clase "entities.Play" campo "song" : es definido como entities.Song con "persistence-modifier=NONE" pero tiene "default-fetch-group=true" o "primary-key=true" definido! Deben ser falsos.
+	at org.datanucleus.metadata.AbstractMemberMetaData.populate(AbstractMemberMetaData.java:609)
+	at org.datanucleus.metadata.ClassMetaData.populateMemberMetaData(ClassMetaData.java:543)
+	at org.datanucleus.metadata.ClassMetaData.populate(ClassMetaData.java:210)
+	at org.datanucleus.metadata.MetaDataManager$1.run(MetaDataManager.java:2806)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.datanucleus.metadata.MetaDataManager.populateAbstractClassMetaData(MetaDataManager.java:2800)
+	at org.datanucleus.metadata.MetaDataManager.populateFileMetaData(MetaDataManager.java:2623)
+	at org.datanucleus.metadata.MetaDataManager.initialiseFileMetaDataForUse(MetaDataManager.java:1183)
+	at org.datanucleus.metadata.MetaDataManager.loadPersistenceUnit(MetaDataManager.java:1046)
+	at org.datanucleus.store.schema.SchemaTool.getNucleusContextForMode(SchemaTool.java:660)
+	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:271)
+21:08:09,002 (main) ERROR [DataNucleus.SchemaTool] - Error creating NucleusContext
+Clase "entities.Play" campo "song" : es definido como entities.Song con "persistence-modifier=NONE" pero tiene "default-fetch-group=true" o "primary-key=true" definido! Deben ser falsos.
+org.datanucleus.metadata.InvalidMemberMetaDataException: Clase "entities.Play" campo "song" : es definido como entities.Song con "persistence-modifier=NONE" pero tiene "default-fetch-group=true" o "primary-key=true" definido! Deben ser falsos.
+	at org.datanucleus.metadata.AbstractMemberMetaData.populate(AbstractMemberMetaData.java:609)
+	at org.datanucleus.metadata.ClassMetaData.populateMemberMetaData(ClassMetaData.java:543)
+	at org.datanucleus.metadata.ClassMetaData.populate(ClassMetaData.java:210)
+	at org.datanucleus.metadata.MetaDataManager$1.run(MetaDataManager.java:2806)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.datanucleus.metadata.MetaDataManager.populateAbstractClassMetaData(MetaDataManager.java:2800)
+	at org.datanucleus.metadata.MetaDataManager.populateFileMetaData(MetaDataManager.java:2623)
+	at org.datanucleus.metadata.MetaDataManager.initialiseFileMetaDataForUse(MetaDataManager.java:1183)
+	at org.datanucleus.metadata.MetaDataManager.loadPersistenceUnit(MetaDataManager.java:1046)
+	at org.datanucleus.store.schema.SchemaTool.getNucleusContextForMode(SchemaTool.java:660)
+	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:271)
